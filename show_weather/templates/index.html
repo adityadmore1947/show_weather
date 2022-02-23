@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Look weather</title>
+    <style>
+        h1{
+            text-align:center;
+        }
+        .temp{
+            display: flex;
+            margin: auto;
+<!--            border: 2px solid black;-->
+            padding: 10px;
+            justify-content: space-around;
+            width: 50vw;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Weather page</h1>
+    <form action="/temperature" method="get" class="temp">
+      <input type="text" placeholder="Enter name of city" name="city">
+      <button type="submit">Weather</button>
+    </form>
+
+</body>
+</html>
