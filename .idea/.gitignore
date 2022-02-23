@@ -1,3 +1,8 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+/settings.py
+/manage.py
+/__init__.py
+/asgi.py
+/wsgi.py
